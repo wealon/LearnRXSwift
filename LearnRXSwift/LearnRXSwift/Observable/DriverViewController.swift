@@ -11,8 +11,6 @@ import RxSwift
 import RxCocoa
 
 class DriverViewController: BaseViewController {
-
-    let disposedBag = DisposeBag()
     
     deinit {
         print("DriverViewController deinit")

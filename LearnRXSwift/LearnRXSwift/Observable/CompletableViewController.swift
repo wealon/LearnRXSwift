@@ -9,8 +9,6 @@ import UIKit
 import RxSwift
 
 class CompletableViewController: BaseViewController {
-
-    let disposedBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -12,7 +12,6 @@ class SingleViewController: BaseViewController {
     
     /// 要么只能发出一个元素，要么产生一个 failure 事件
     
-    let disposedBag = DisposeBag()
     override func viewDidLoad() {
         super.viewDidLoad()
         

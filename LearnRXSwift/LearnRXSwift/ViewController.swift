@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         data.append("CompletableViewController")
         data.append("MaybeViewController")
         data.append("DriverViewController")
+        data.append("SignalViewController")
         
 
         view.addSubview(tableView)
@@ -68,6 +69,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(target, animated: true)
         } else if item == "DriverViewController" {
             let target = DriverViewController()
+            navigationController?.pushViewController(target, animated: true)
+        } else if item == "SignalViewController" {
+            let target = SignalViewController()
             navigationController?.pushViewController(target, animated: true)
         }
     }
